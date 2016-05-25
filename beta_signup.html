@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Beta</title>
+    <title>About Us</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -19,39 +19,28 @@
   </head>
     
   <body>
-    <nav class="navbar navbar-fixed-top" role="navigation">
-      <div data-spy="affix" data-offset-top="300">
+    <nav class="navbar navbar-fixed-top navbar-other" role="navigation">
         <div class="navbar-header">
-            
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        
-          
-            <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.html">
             <svg class="icon icon-droplet"><use xlink:href="symbol-defs.svg#icon-droplet"></use></svg><text>oueve</text></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html#sign-up">Get the App</a></li>
-            <li><a href="index.html#features">Features</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a class="active" href="index.html#sign-up">beta</a></li>
+            <li><a href="index.html#features">features</a></li>
+            <li><a href="about.html">team</a></li>
           </ul>
         </div>
-      </div>
     </nav>
-    <div class="jumbotron">
-      <div class="container jumbo-cont">
-        <h1>oueve</h1>
-        <h4>for iOS</h4>
-      </div>
-    </div>
       
-    <h4 style="text-align: center">Sign up for the beta here! Submit the form, and we'll let you know if you're accepted soon.</h4>
-      
-    <div class="container sign-container">
+    <div class="other">
+        <h2 style="text-align: center; padding-top: 50px">Want to beta test?<br>Sign up here:</h2>  
+        <div class="container sign-container">
       <form>
           <h5>Your name:</h5> <input id="Name" name="Name" type="text" placeholder="Name"><br><br>
           <h5>Your email:</h5> <input id="Email" name="Email" type="text" placeholder="Email Address"><br><br>
@@ -60,6 +49,7 @@
           <button id="ButtonSubmit" onclick="contactSend()" type="button">Sign up!</button>
       </form>
       <p class="button" style="text-align: center"></p>
+      </div>
       </div>
   </body>
 </html>
