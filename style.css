@@ -11,19 +11,27 @@ body, .jumbotron, .footer-brand {
 .footer-brand {
     font-size: 150%;
 }
-.navbar {
-    
+.navbar-other, .navbar-collapse {
+    background-color: rgba(21, 172, 226, 0.8);
+}
+.navbar-other {
     height: 17px;
+}
+.active {
+    background: #808080;
+    width: 100%;
 }
 .affix {
     position: relative;
     top: 0;
-    background-color: rgba(21, 172, 226, 0.5);
 }
 .navbar-brand {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding-left: 1em;
     position: fixed;
+}
+.other {
+    padding-top: 45px;
 }
 a.fixed {
     position: fixed;
@@ -41,11 +49,12 @@ a.fixed {
     color: white;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin-right: 0.8em;
+    font-size: 115%;
 }
 li a {
     color: white;
 }
-ul.nav a:hover, ul.nav a:focus {
+ul.nav a:hover, ul.nav a:focus, ul.button a:hover {
     text-decoration: underline;
     background-color: transparent;
     color: white;
@@ -69,12 +78,12 @@ footer {
     background-color: #15ACE2;
     border-radius: 5px;
     border: 1px solid white;
-    margin-right: 1em;
+    margin-right: 0.7em;
 }
 button {
     margin-left: 0.4em;
 }
-.icon.icon-facebook {
+.icon.icon-facebook, .icon.icon-instagram {
     margin-right: 1em;
 }
 text {
@@ -84,7 +93,6 @@ text {
 h2 {
     text-align: center;
 }
-
 img {
     display: block;
     margin: 0 auto;
@@ -100,6 +108,10 @@ img {
 .right {
     text-align: right;
     border: 1px;
+}
+.right-left-aligned {
+    position: absolute;
+    left: 70%;
 }
 input, textarea {
     background-color: transparent;
@@ -122,4 +134,55 @@ input, textarea {
 }
 a.sign_up {
     color: #9C9C9C;
+}
+.drop {
+    position: absolute;
+    left: 10%;
+}
+.drop-mobile {
+    position: absolute;
+    left: 20%;
+    background: none;
+    }
+.drop-text {
+    position: absolute;
+    left: 44%;
+    top: 64%;
+}
+.centered {
+    color: #15ACE2;
+    position: absolute;
+    left: -14.5%;
+    top: 33%;
+    width: 99%;
+    text-align: center;
+}
+.button {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20%;
+}
+li.button-links {
+    padding: 3px;    
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    width: 200px;
+    overflow-x: auto;
+    border-radius: 15px;
+    display: block;
+    float: left;
+}
+.image {
+    position: absolute;
+    top: -60px;
+    right: 15%;
+    width: 300px;
+    height: 308px;
+    background: url("img.png") 0 0;
+}
+#features {
+    padding-top: 15px;
 }
