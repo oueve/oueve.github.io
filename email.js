@@ -1,8 +1,10 @@
+/*global $, jQuery, alert */
 function contactSend() {
-    var name = $('#Name').val();
-    var email = $('#Email').val();
-    var device = $('#Device').val();
-    var why = $('#Why').val();
+    "use strict";
+    var name = $('#Name').val(),
+        email = $('#Email').val(),
+        device = $('#Device').val(),
+        why = $('#Why').val();
 
     $.ajax({
         url: "https://docs.google.com/forms/d/1JDUqM1cnXcmaDClnn2bwE-9BcK_r1J8V34GEV0fXBXY/formResponse",
