@@ -95,7 +95,7 @@ button {
 .icon.icon-facebook, .icon.icon-instagram {
     margin-right: 1em;
 }
-text {
+span.text {
     position: relative;
     top: -5px;
 }
@@ -107,6 +107,7 @@ img {
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8px;
 }
 .border-desktop {
     border-right: solid #DBDBDB 1px;
@@ -192,9 +193,26 @@ li.button-links {
     height: 528px;
     background: url("img.png") 0 0;
 }
-.image-mobile {
+.mobile {
+    position: absolute;
+    top: 236px;
+    left: -10px;
+    width: 258px;
+    height: 250px;
     background: url("img.png") 0 0;
 }
 #features {
     padding-top: 15px;
+}
+.button-pad {
+    position: relative;
+    right: -4%;
+}
+.col-md-3 {
+    text-align: center;
+}
+.padding {
+    position: absolute;
+    top: 150px;
+    left: 200px;
 }
