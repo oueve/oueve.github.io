@@ -1,8 +1,15 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+#features {
+    top: -50px;
+}
 .jumbotron {
     background-color: #15ACE2;
     text-align: center;
     color: white;
-    min-height: 380px;
+    min-height: 600px;
     margin: 0;
 }
 body, .jumbotron, .footer-brand {
@@ -17,6 +24,9 @@ body, .jumbotron, .footer-brand {
 .navbar-other {
     height: 17px;
 }
+.brand {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 .active {
     background: #808080;
     width: 100%;
@@ -26,7 +36,6 @@ body, .jumbotron, .footer-brand {
     top: 0;
 }
 .navbar-brand {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding-left: 1em;
     position: fixed;
 }
@@ -86,7 +95,7 @@ button {
 .icon.icon-facebook, .icon.icon-instagram {
     margin-right: 1em;
 }
-text {
+span.text {
     position: relative;
     top: -5px;
 }
@@ -98,6 +107,7 @@ img {
     margin: 0 auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8px;
 }
 .border-desktop {
     border-right: solid #DBDBDB 1px;
@@ -143,7 +153,7 @@ a.sign_up {
     position: absolute;
     left: 20%;
     background: none;
-    }
+}
 .drop-text {
     position: absolute;
     left: 44%;
@@ -162,7 +172,7 @@ a.sign_up {
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 20%;
+    left: 19%;
 }
 li.button-links {
     padding: 3px;    
@@ -177,12 +187,32 @@ li.button-links {
 }
 .image {
     position: absolute;
-    top: -60px;
+    top: -70px;
     right: 15%;
-    width: 300px;
-    height: 308px;
+    width: 258px;
+    height: 528px;
+    background: url("img.png") 0 0;
+}
+.mobile {
+    position: absolute;
+    top: 236px;
+    left: -10px;
+    width: 258px;
+    height: 250px;
     background: url("img.png") 0 0;
 }
 #features {
     padding-top: 15px;
+}
+.button-pad {
+    position: relative;
+    right: -4%;
+}
+.col-md-3 {
+    text-align: center;
+}
+.padding {
+    position: absolute;
+    top: 150px;
+    left: 200px;
 }
