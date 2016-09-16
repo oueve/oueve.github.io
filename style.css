@@ -172,13 +172,11 @@ a.sign_up {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 20%;
+    left: 30%;
     text-align: center;
 }
 li.button-links {
     padding: 3px; 
-    position: absolute;
-    left: 50px;
     margin-right: 15px;
     margin-bottom: 10px;
     border: 1px solid white;
