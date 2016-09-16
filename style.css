@@ -171,12 +171,15 @@ a.sign_up {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: absolute;
-    left: 19%;
+    position: relative;
+    left: 20%;
+    text-align: center;
 }
 li.button-links {
-    padding: 3px;    
-    margin-right: 20px;
+    padding: 3px; 
+    position: absolute;
+    left: 50px;
+    margin-right: 15px;
     margin-bottom: 10px;
     border: 1px solid white;
     width: 200px;
@@ -196,9 +199,27 @@ li.button-links {
 .mobile {
     position: absolute;
     top: 236px;
-    left: -15px;
     width: 258px;
     height: 250px;
+    background: url("img.png") 0 0;
+}
+.devices {
+    left: -15px;
+}
+.iPhone-5 {
+    position: absolute;
+    top: 236px;
+    width: 258px;
+    height: 250px;
+    left: -50px;
+    background: url("img.png") 0 0;
+}
+.iPad {
+    position: absolute;
+    top: 100px;
+    width: 258px;
+    height: 400px;
+    left: 0px;
     background: url("img.png") 0 0;
 }
 #features {
