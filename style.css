@@ -6,26 +6,26 @@ html, body {
     top: -50px;
 }
 .jumbotron {
-    background-color: #15ACE2;
+    background-color: #74B8FF;
     text-align: center;
     color: white;
     min-height: 600px;
     margin: 0;
 }
 body, .jumbotron, .footer-brand {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Avenir Next", BlinkMacSystemFont, sans-serif;
 }
 .footer-brand {
     font-size: 150%;
 }
 .navbar-other, .navbar-collapse {
-    background-color: rgba(21, 172, 226, 0.8);
+    background-color: #74B8FF;
 }
 .navbar-other {
     height: 17px;
 }
 .brand {
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "Avenir Next", BlinkMacSystemFont, sans-serif;
 }
 .active {
     background: #808080;
@@ -56,7 +56,7 @@ a.fixed {
 }
 .nav.navbar-nav.navbar-right, .navbar-brand {
     color: white;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: "Avenir Next", BlinkMacSystemFont, sans-serif;
     margin-right: 0.8em;
     font-size: 115%;
 }
@@ -73,10 +73,11 @@ ul.nav a:hover, ul.nav a:focus, ul.button a:hover {
     top: 6em;
 }
 footer {
-    color: #666;
-    background: #E0E0E0;
+    color: #74B8FF;
+    background: #343332;
     padding: 16px 0 18px 0;
 }
+
 .icon {
     display: inline-block;
     width: 1.5em;
@@ -98,9 +99,14 @@ button {
 span.text {
     position: relative;
     top: -5px;
+    color: #74B8FF;
+
 }
 h2 {
     text-align: center;
+}
+h3 {
+    font-size: 300%;
 }
 img {
     display: block;
