@@ -45,6 +45,7 @@ ga('send', 'pageview');
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="basics.html">Basics</a></li>
+            <li><a href="assistant.html">Oueve Assistant</a></li>
             <li><a href="science.html">Science</a></li>
             <li><a href="beta.html">Join The Beta</a></li>
             <li><a href="changelog.html">Changelog</a></li>
@@ -55,23 +56,25 @@ ga('send', 'pageview');
 
         <div class="other">
             <div class =" sign-container">
-    <h5 style="text-align: center; padding-top: 50px">Want to beta test?<br>Sign up here:</h5> 
+    <h5 style="text-align: center; padding-top: 50px">Have any Crashes and Suggestions?<br>Fill out this form so we can address it!</h5> 
             
             <form id="foo">
                 <h2>Your name:</h2> 
                 <input id="Name" name="Name" type="text" placeholder="Name" required><br><br>
-                <h2>Your email:</h2> 
-                <input id="Email" name="Email" type="text" placeholder="Email Address" required><br><br>
+                <h2>Your email:<br><sub>Required so we can get back to you if we have any questions.</sub></h2> 
+                <input id="Email" name="Email" type="text" placeholder="Email" required><br><br>
                 <h2>Your device:<br><sub>Enter the device you're on, e.g. 'iPhone X'</sub></h2> 
                 <input id="Device" name="Device" type="text" placeholder="Device" required><br><br>
-                <h2>Why you want to try this app:<br><sub>Not required. We just want to know!</sub></h2> <textarea id="Why" name="Why" placeholder="Why you're interested" rows="10"; cols="80"></textarea><br><br>
+                <h2>What Screen?:</h2> 
+                <input id="Screen" name="Screen" type="text" placeholder="ie: homescreen or data" required><br><br>
+                <h2>Please describe the issue:<br><sub>Required to help us understand the problem so we can solve it! Please be as specific as possible when describe the situation and the acitons leading up to the pertaining scene.</sub></h2> <textarea id="What Happened" name="What Happened" placeholder="" rows="10"; cols="80"></textarea><br><br>
                 <div id='success'></div>
                 <button type='submit' style="color:#343332; background-color: white">Send</button><br><br>
             </form>
 
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- Custom Theme JavaScript -->
-  <script src='google-sheet.js'></script>
+  <script src='suggestions.js'></script>
             </div>
          </div>
          

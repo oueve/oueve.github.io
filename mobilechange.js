@@ -21,6 +21,8 @@ $(document).ready(function () {
     if ($(document).width() < 989) {
         $("div.phone").removeClass("image");
         $("div.phone").addClass("drop-mobile");
+        $("div.phone").removeClass("descriptions");
+        
     }
     if ($(".active") === true) {
         $("a.active").removeClass("a:hover");
