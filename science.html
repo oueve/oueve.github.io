@@ -1,82 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="icon-droplet.png" rel="apple-touch-icon">
+      
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <title>oueve</title>
+
+    <!-- Font for non-Apple users -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
+
+    <!-- Bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
     <script src="mobilechange.js"></script>
     <script src="email.js"></script>
-
   </head>
     
-  <body>
-    <nav class="navbar navbar-fixed-top navbar-other">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-            <svg class="icon icon-droplet"><use xlink:href="symbol-defs.svg#icon-droplet"></use></svg><span class="text">oueve</span></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="basics.html">Basics</a></li>
-            <li><a href="science.html">Science</a></li>
-            <li><a href="beta.html">Join The Beta</a></li>
-            <li><a href="changelog.html">Changelog</a></li>
-            <li><a href="about.html">About</a></li>
-          </ul>
-        </div>
-    </nav>
-      
-    <div class = container style="padding-top: 20px">
-        <div class = science>
+  <nav class="navbar navbar-fixed-top navbar-other">
+    <div class="navbar-header">
+
+      <!-- Mobile Menu Button -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a class="navbar-brand" href="index.html">
+        <svg class="icon icon-droplet"><use xlink:href="symbol-defs.svg#icon-droplet"></use></svg><span class="text">oueve</span>
+      </a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="basics.html">Basics</a></li>
+        <li><a href="science.html">Science</a></li>
+        <li><a href="beta.html">Join The Beta</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
     
+  <body>  
     <br>
-      <h3>Why Oueve?</h3>
-        <div class="col-md-4 border border-desktop"><img src="/images/body.png" alt="body" height="160"><br>
-          <h2 style="text-align: center">Stay hydrated</h2>
+    <div class="container" style="padding-top: 32px">
+      <h2>Why Oueve?</h2>
+      <div class="col-md-4 border border-desktop"><img src="./images/body.png" alt="body" height="160"><br>
+        <h3 style="text-align: center">Stay hydrated</h2>
           <p style="text-align: justify">Did you know that your body is composed of over <b>60%</b> water? To maintain this healthy balance of fluids, Oueve helps keep track of your water consumption, so you'll know if you're on track.</p>
-        </div>
-        <div class="col-md-4 border border-desktop"><img src="/images/kidney.png" alt="kidney" height="160"><br>
-          <h2 style="text-align: center">Help your kidneys</h2>
-          <p style="text-align: justify">Your body constantly needs water to flush out waste from your body. Oueve makes sure that you drink enough water to ensure that your body is working the way it should. Staying water also prevents kidney stones and increases waste absoption in kidneys. </p>
-        </div>
-        <div class="col-md-4"><img src="/images/muscle.png" alt="muscle" height="160"><br>
-          <h2 style="text-align: center">Perform better</h2>
-          <p style="text-align: justify">Your muscle tissue is composed of 75% water. Drinking water ensures that these muscles can perform at maximum capacity when you need them the most, on and off of the field. Drinking water aids with muscle recovery times and prevents cramps during crunch time.<sup><a href="http://breakingmuscle.com/health-medicine/10-life-changing-reasons-to-drink-more-water" target="_blank">1</a></sup></p>
-        </div>
-        <br>
-          <h2 style="text-align: center">Take the small step.</h2>
-          <p style="text-align: justify">We know how fast time passes by and thats why every small step can have a huge impact on our lives. Take the small step that will change your life forever.</p>
-        </div>
       </div>
+      <div class="col-md-4 border border-desktop"><img src="./images/kidney.png" alt="kidney" height="160"><br>
+        <h3 style="text-align: center">Help your kidneys</h2>
+          <p style="text-align: justify">Your body constantly needs water to flush out waste from your body. Oueve makes sure that you drink enough water to ensure that your body is working the way it should. Staying water also prevents kidney stones and increases waste absoption in kidneys. </p>
+      </div>
+      <div class="col-md-4"><img src="./images/muscle.png" alt="muscle" height="160"><br>
+        <h3 style="text-align: center">Perform better</h2>
+          <p style="text-align: justify">Your muscle tissue is composed of 75% water. Drinking water ensures that these muscles can perform at maximum capacity when you need them the most, on and off of the field. Drinking water aids with muscle recovery times and prevents cramps during crunch time.<sup><a href="http://breakingmuscle.com/health-medicine/10-life-changing-reasons-to-drink-more-water" target="_blank">1</a></sup></p>
+      </div>
+
+      <div style="text-align: center">
+        <h2 style="text-align: center"><br>Take a small step.</h2>
+        <p style="text-align: center">We know how fast time passes by. Every small step can have a huge impact on our lives, and this small step will change your life forever.</p>
+      </div>
+      <br>
+    </div>
+    
     <br>    
     <br>
-      
-    
     <br>
     <br>
+    <br>
+
     <footer class="footer">
       <div class="container">
-        <div class="col-md-6 footer-brand">
-          oueve
-        </div>
-        <div class="col-md-6 right-left-aligned">
+        <div class="col-md-6 footer-brand">oueve</div>
+        <div class="col-md-6">
+          <span class="pull-right">
             <a href="https://www.facebook.com/Oueve.ios"><svg class="icon icon-facebook"><use xlink:href="symbol-defs.svg#icon-facebook"></use></svg><span class="text">Our Facebook page</span></a><br>
             <a href="https://www.instagram.com/oueve.ios/"><svg class="icon icon-instagram"><use xlink:href="symbol-defs.svg#icon-instagram"></use></svg><span class="text">Our Instagram</span></a>
+          </span>
         </div>
       </div>
     </footer>

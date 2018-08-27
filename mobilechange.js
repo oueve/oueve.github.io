@@ -1,6 +1,7 @@
 /*global $, jQuery, alert */
 $(document).ready(function () {
     "use strict";
+
     if ($(document).width() < 1000) {
         $("div.col-md-4").removeClass("border-desktop");
         $("div.col-md-4").addClass("border-mobile");
@@ -20,9 +21,12 @@ $(document).ready(function () {
     });
     if ($(document).width() < 989) {
         $("div.phone").removeClass("image");
+        $("div.phone").removeClass("phone");
         $("div.phone").addClass("drop-mobile");
         $("div.phone").removeClass("descriptions");
-        
+        $(".jumbotron").addClass("background-mobile");
+        $(".button").addClass("button-mobile");
+        $("div.container").removeClass("text-container");
     }
     if ($(".active") === true) {
         $("a.active").removeClass("a:hover");
