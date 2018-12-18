@@ -1,0 +1,59 @@
+
+oueve-assistant{
+    background: url(background.jpg);
+}
+h7 {
+    background: clear;
+    color: solid white;
+    font-size: 100%;
+    text-align: left;
+    
+}
+body {
+    background:  linear-gradient(#986BD2, #74B8FF);
+}
+
+h2 {
+    font-size: 350%;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+    color: #FFFBF8;
+}
+
+.text-container {
+    width: 60%;
+}
+
+sub {
+    font-size: 60%;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+button.submit-button {
+    padding: 3px; 
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    width: 200px;
+    overflow-x: auto;
+    border-radius: 15px;
+    align-content: center;
+    background-color: transparent;
+}

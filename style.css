@@ -28,6 +28,8 @@ html {
 body {
     font-family: "Avenir Next", 'Lato', sans-serif !important;
     margin-bottom: 7em;
+    background-color: #343332;
+    color: white;
 }
 .footer-brand {
     font-size: 150%;
