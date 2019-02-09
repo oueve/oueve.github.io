@@ -284,3 +284,13 @@ descriptions {
     top: 150px;
     left: 200px;
 }
+
+li.button-privacy {
+    padding: 3px; 
+    border: 1px solid white;
+    width: 200px;
+    overflow-x: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 0 0 0 8%;
+}
